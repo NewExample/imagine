@@ -1,86 +1,86 @@
 /* categories IMG*/
 #trends2021 {
-  background: url(/img/testCatalog/trends2021.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/trends2021.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #new {
-  background: url(/img/testCatalog/new.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/new.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #maps {
-  background: url(/img/testCatalog/maps.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/maps.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #flowers {
-  background: url(/img/testCatalog/flowers.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/flowers.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #_3D {
-  background: url(/img/testCatalog/3D.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/3D.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #stars {
-  background: url(/img/testCatalog/stars.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/stars.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #child {
-  background: url(/img/testCatalog/child.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/child.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #old {
-  background: url(/img/testCatalog/old.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/old.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #funny {
-  background: url(/img/testCatalog/funny.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/funny.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #dogs {
-  background: url(/img/testCatalog/dogs.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/dogs.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #cats {
-  background: url(/img/testCatalog/cats.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/cats.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #more {
-  background: url(/img/testCatalog/more.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/more.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #last {
-  background: url(/img/testCatalog/last.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/last.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #kitchen {
-  background: url(/img/testCatalog/kitchen.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/kitchen.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #livinRoom {
-  background: url(/img/testCatalog/livingRoom.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/livingRoom.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #bedroom {
-  background: url(/img/testCatalog/bedroom.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/bedroom.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
 #cabinet {
-  background: url(/img/testCatalog/cabinet.svg) no-repeat 24px 24px;
+  background: url(../img/testCatalog/cabinet.svg) no-repeat 24px 24px;
   background-position: left;
   background-size: 24px 24px;
 }
@@ -221,6 +221,7 @@
   font-size: 18px;
   width: 100%;
   padding: 10px 10px;
+  border: 1px;
 }
 .submitNumber {
   background: #ffd164;
@@ -228,6 +229,7 @@
   font-size: 14px;
   width: 100%;
   padding: 13px 0px;
+  border: 1px;
 }
 .questions h3 {
   margin-top: 0px !important;
@@ -254,4 +256,8 @@
   align-items: center;
   align-content: center;
   justify-content: center;
+}
+.upploadImageButton img {
+  margin-top: auto;
+  margin-bottom: auto;
 }
