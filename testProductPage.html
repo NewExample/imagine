@@ -291,9 +291,17 @@
       </div>
     </div>
     
-    <div class="searchProduct ">
-      <div class="searchInput">
-
+    <div class="searchProduct container">
+      <div class="wrap">
+        <div class="search">
+          <input type="text" class="searchTerm" placeholder="Поиск по названию или автору">
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class="upploadImage">
+        <button class="upploadImageButton button">Загрузить изображение </button>
       </div>
       <div class="way">
 
@@ -302,15 +310,36 @@
 
     <div class="container mainContainer">
       <div class="row">
-        <div class="col">
+        <div class="col-7">
           <h3>Листья салата винегрет - Иван Гог</h3>
           <div class="upploadFoto">
-
+            <img src="img/testProductsPage/download.svg" alt="" width="20.83%">
+            <button class="upploadImageButton button white">Загрузить изображение</button>
+            <h5>Формат загружаемого файла: jpeg, gif или png, максимальный размер — 20 Mb</h5>
           </div>
           <div class="favoriteImages">
             <div class="favoriteText"><img src="img/testProductsPage/favorite.svg" alt=""><h3>Добавить в избранное</h3></div>
           </div>
-          <div class="slicker">Слайдер</div>
+
+          <!-- slider -->
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-xs-3 firstItem">
+                Col 1
+              </div>
+              <div class="col-xs-3">
+                Col 2
+              </div>
+              <div class="col-xs-3 lastItem">
+                Col 3
+              </div>
+            </div>
+          </div>
+          <!-- slider -->
+          <div class="cont">
+            <button class="btn" id="prev">Prev</button>
+            <button class="btn" id="next">Next</button>
+          </div>
           <div class="tags">
             <h4>Найти похожие по тегам:</h4>
             <ul>
@@ -366,7 +395,7 @@
     </div>
 
   
-
+  <script src="js/sliderProductPage.js"></script>
   <script src="js/script.js"></script>
   <script src="js/slider.js"></script>
   <script src="js/swiper.js"></script>

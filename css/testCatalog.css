@@ -1,0 +1,257 @@
+/* categories IMG*/
+#trends2021 {
+  background: url(/img/testCatalog/trends2021.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#new {
+  background: url(/img/testCatalog/new.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#maps {
+  background: url(/img/testCatalog/maps.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#flowers {
+  background: url(/img/testCatalog/flowers.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#_3D {
+  background: url(/img/testCatalog/3D.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#stars {
+  background: url(/img/testCatalog/stars.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#child {
+  background: url(/img/testCatalog/child.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#old {
+  background: url(/img/testCatalog/old.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#funny {
+  background: url(/img/testCatalog/funny.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#dogs {
+  background: url(/img/testCatalog/dogs.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#cats {
+  background: url(/img/testCatalog/cats.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#more {
+  background: url(/img/testCatalog/more.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#last {
+  background: url(/img/testCatalog/last.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#kitchen {
+  background: url(/img/testCatalog/kitchen.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#livinRoom {
+  background: url(/img/testCatalog/livingRoom.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#bedroom {
+  background: url(/img/testCatalog/bedroom.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+#cabinet {
+  background: url(/img/testCatalog/cabinet.svg) no-repeat 24px 24px;
+  background-position: left;
+  background-size: 24px 24px;
+}
+/* categories IMG*/
+.cateforiesCol ul {
+  margin-left: 0;
+}
+.cateforiesCol ul li {
+  height: 34px;
+  list-style: none;
+}
+.cateforiesCol ul li p {
+  padding-left: 30px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+#categoriesCatalog {
+  display: flex;
+  justify-content: space-between;
+}
+.mainContainer #categoriesCatalog .col {
+  margin-left: 0px;
+}
+#color .col {
+  display: flex;
+  padding: 0%;
+  margin-bottom: 18px;
+}
+#color .col img {
+  max-width: 33px;
+  margin-right: 24px;
+}
+#catalogContainer {
+  max-width: 1440px;
+}
+#catalogSearch {
+  max-width: 1440px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.cateforiesCol {
+  max-width: 270px;
+  padding: 0;
+}
+.Top {
+  margin-top: 43px;
+}
+.questions {
+  background: #6394ff;
+  box-shadow: 1px 4px 7px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  max-width: 270px;
+  margin-top: 46px;
+  aspect-ratio: 1/1;
+  padding: 10%;
+}
+
+.questions h4 {
+  font-size: 18px;
+  color: white;
+}
+.cardsOrder {
+  box-shadow: 4px 4px 7px -3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-bottom: 38px;
+}
+#categories {
+  box-shadow: 4px 4px 7px -3px rgb(255, 255, 255);
+}
+#categories h3 {
+  margin-top: 43px;
+  font-size: 24px;
+}
+.cardsOrder img {
+  width: 103%;
+  margin-top: -19px;
+}
+.descriptionProducts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 13px 0px 13px;
+  margin-top: -20px;
+}
+.descriptionProducts div p {
+  margin: 0;
+}
+.descriptionProducts div button {
+  margin: 0;
+  background: #ffd164;
+  border-radius: 7px;
+  border: 1px #ffd164;
+  padding: 7px 5px;
+  font-size: 14px;
+}
+#yellowButton {
+  margin-top: 30px;
+}
+.oldPrice {
+  text-decoration-line: line-through;
+  font-size: 14px;
+  color: #828282;
+}
+.newPrice {
+  font-size: 18px;
+}
+.favoriteImg {
+  width: 29px !important;
+  position: relative;
+  left: 84%;
+  top: 24px;
+}
+#sales {
+  background: #6394ff;
+  border-radius: 10px;
+  padding: 3px 11px;
+  height: 24px;
+  width: 56px;
+  height: 24px;
+  color: white;
+  position: relative;
+  left: 4px;
+  top: -30px;
+  font-size: 14px;
+}
+#marginRight {
+  margin-right: 21px !important;
+}
+.marginLeft {
+  margin-left: 12px !important;
+}
+.inputNumber {
+  background: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px 10px;
+}
+.submitNumber {
+  background: #ffd164;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 100%;
+  padding: 13px 0px;
+}
+.questions h3 {
+  margin-top: 0px !important;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+.upploadImage {
+  width: 200px;
+  margin-left: 12px;
+}
+.upploadImageButton {
+  width: 100%;
+  background: #000000;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+}
+.upploadImageButton p {
+  display: flex;
+  width: 70%;
+  margin-left: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
