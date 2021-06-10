@@ -3,13 +3,14 @@
   max-width: 1400px;
   width: 100%;
   padding: 0;
-  padding-top: 42px;
+  padding-top: 32px;
+
+  padding-left: 16px !important;
+  padding-right: 16px !important;
 }
 
 .mainSection {
   min-width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 .mainSection h3 {
   margin-top: 30px;
@@ -22,9 +23,9 @@
   justify-content: space-between;
 }
 .mainMenu a {
-  max-width: 360.79px;
   box-shadow: 1px 4px 7px -3px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  width: 31.872%;
 }
 
 #marginRightFirst,
@@ -32,9 +33,12 @@
   margin-right: 20px;
 }
 .mainMenu a .col img {
-  height: 269.35px;
-  width: 102%;
   border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+.mainMenu a .col div span {
+  margin-top: 5px;
 }
 .mainMenu a .col div span,
 .smallMenu a .col div span {
@@ -46,20 +50,28 @@
   line-height: 21px;
 }
 .smallMenu a #small {
-  min-width: 204.11px;
-  height: 204.11px;
   box-shadow: 1px 4px 7px -3px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  max-width: 100%;
+  aspect-ratio: 1/1;
 }
 .smallMenu a #small img {
   height: 70px;
-  margin-top: 43px;
 }
 .smallMenu a #small div span {
   margin-bottom: 0;
 }
 .smallMenu {
   margin-top: 44.94px !important;
+}
+#margins {
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .col {
   height: 100%;
@@ -72,214 +84,57 @@
 .smallMenu {
   margin-bottom: 40px;
 }
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 645px) {
   .mainMenu a {
-    width: 300px;
-    height: 260px;
+    width: 48.0027%;
   }
-  .mainMenu a .col img {
-    height: 225px;
+  #marginTop {
+    margin-top: 15px;
   }
-  .smallMenu a {
-    width: 153px;
-    height: 153px;
-  }
-  .smallMenu a #small {
-    min-width: 153px;
-    height: 153px;
-  }
-  .smallMenu a #small div img {
-    margin-top: 21px;
+  #margins {
+    margin-right: 0;
   }
 }
-@media screen and (max-width: 975px) {
-  .mainMenu a {
-    width: 250px;
-    height: 222.5px;
-  }
-  .mainMenu a .col img {
-    height: 187.5px;
-  }
-  .smallMenu a {
-    width: 122px;
-    height: 122px;
-  }
-  .smallMenu a #small {
-    min-width: 123px;
-    height: 123px;
-  }
-  .smallMenu a #small div img {
-    margin-top: 21px;
-    height: 50px;
-  }
+.smallMenu a {
+  width: 18%;
+  max-width: 204px;
 }
 @media screen and (max-width: 900px) {
-  .mainSection {
+  #mainSection {
     padding: 0 !important;
   }
 }
-@media screen and (max-width: 853px) {
-  .mainMenu,
-  .mainSection h3 {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .mainSection h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  #marginTop {
-    margin-top: 20px;
-  }
-  #marginRightSecond {
-    margin-right: 0;
-  }
-  .mainMenu a {
-    width: 300px;
-    height: 260px;
-  }
-  .mainMenu a .col img {
-    height: 225px;
-  }
-  .smallMenu a {
-    width: 122px;
-    height: 122px;
-  }
-  .smallMenu a #small {
-    min-width: 123px;
-    height: 123px;
-  }
-  .smallMenu a #small div img {
-    margin-top: 21px;
+@media screen and (max-width: 750px) {
+  .smallMenu a #small img {
     height: 50px;
   }
-}
-@media screen and (max-width: 705px) {
-  .mainMenu a {
-    width: 250px;
-    height: 222.5px;
-  }
-  .mainMenu a .col img {
-    height: 187.5px;
-  }
-  .mainMenu,
-  .mainSection h3 {
-    max-width: 600px;
-    margin: auto;
-  }
-  .mainSection h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .smallMenu a {
-    width: 103px;
-    height: 103px;
-  }
-  .smallMenu a #small {
-    min-width: 103px;
-    height: 103px;
-  }
-  .smallMenu a #small div img {
-    margin-top: 21px;
-    height: 30px;
-  }
-  .smallMenu a #small div span {
-    font-size: 14px;
-    line-height: normal;
-  }
-  .smallMenu {
-    margin-bottom: 40px;
+  .smallMenu a .col div span {
+    font-size: 17px;
+    line-height: 18px;
   }
 }
 
-@media screen and (max-width: 607px) {
-  .mainMenu a {
-    width: 200px;
-    height: 185px;
-  }
-  .mainMenu a .col img {
-    height: 150px;
-  }
-  .mainMenu,
-  .mainSection h3 {
-    max-width: 520px;
-    margin: auto;
-  }
-  .mainSection h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .smallMenu a {
-    width: 87px;
-    height: 87px;
-  }
-  .smallMenu a #small {
-    min-width: 87px;
-    height: 87px;
-  }
-  .smallMenu a #small div img {
-    margin-top: 21px;
-    height: 20px;
-  }
-  .smallMenu a #small div span {
-    font-size: 12px;
-  }
-  .smallMenu {
-    margin-bottom: 40px;
+@media screen and (max-width: 610px) {
+  .smallMenu a .col div span {
+    display: none;
   }
 }
-@media screen and (max-width: 485px) {
-  #marginRightSecond {
-    margin-right: 0px;
+@media screen and (max-width: 495px) {
+  .smallMenu a #small img {
+    height: 35px;
   }
-  .mainMenu a {
-    width: 150px;
-    height: 148.5px;
+  .mainMenu a .col div span {
+    font-size: 16px;
   }
-  .mainMenu a .col img {
-    height: 112.5px;
-  }
-  .mainMenu,
-  .mainSection h3 {
-    max-width: 350px;
-    margin: auto;
-  }
-  .mainSection h3 {
-    margin-top: 30px;
-    margin-bottom: 10px;
-  }
-  .smallMenu {
-    margin-bottom: 40px;
+}
+@media screen and (max-width: 400px) {
+  .smallMenu a #small img {
+    height: 25px;
   }
 }
 
-@media screen and (max-width: 404px) {
-  #marginRightSecond {
-    margin-right: 0px;
-  }
-}
-@media screen and (max-width: 383px) {
-  #marginRightFirst {
-    margin-right: 0px;
-  }
-  .mainMenu {
-    max-width: 200px;
-    margin: auto;
-  }
-  #marginRightSecond {
-    margin-right: 0px;
-    margin-top: 20px;
-  }
-  .mainMenu a {
-    width: 200px;
-    height: 185px;
-  }
-  .mainMenu a .col img {
-    height: 150px;
-  }
-  .smallMenu {
-    margin-bottom: 40px;
+@media screen and (max-width: 375px) {
+  .mainMenu a .col div span {
+    font-size: 15px;
   }
 }
