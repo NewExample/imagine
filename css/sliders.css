@@ -90,7 +90,7 @@ span.sim-dot {
   align-content: center;
   justify-content: center;
 
-  background: url(/img/testMain/slider1.png) center no-repeat;
+  background: url(../img/testMain/slider1.png) center no-repeat;
   background-size: 100% 270px;
   height: 270px;
   border-radius: 10px;
