@@ -1,7 +1,9 @@
 .slider {
-  max-width: 1384px;
+  position: sticky;
+  max-width: 1000px;
   margin: 28px auto 0 auto;
   padding: 0px 16px;
+  z-index: 0;
 }
 .sim-slider {
   width: 100%;
@@ -91,7 +93,7 @@ span.sim-dot {
   justify-content: center;
 
   background: url(../img/testMain/slider1.webp) center no-repeat;
-  background-size: 100% 270px;
+  background-size: auto 270px;
   height: 270px;
   border-radius: 10px;
 }

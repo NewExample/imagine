@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-.  {
+. {
   font-size: 1.1rem;
 }
 
@@ -19,7 +19,7 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
   padding: 0.8rem 0 0.6rem 0 !important;
-  background: #6394FF !important;
+  background: #6394ff !important;
   color: #fff !important;
 }
 
@@ -30,24 +30,24 @@
 
 .covid--section .material-icons {
   top: 40% !important;
-  cursor: pointer; 
-  position: absolute; 
+  cursor: pointer;
+  position: absolute;
   right: 176px;
 }
 
 .covid--image {
-    width: 80px;
-    height: 80px;
-    background-image: url(../img/svg/gift.svg);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/svg/gift.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.3;
   color: #131313;
@@ -74,7 +74,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   margin: 8px 0;
   line-height: 1.2;
@@ -127,7 +127,7 @@ hr {
 }
 .geo-image {
   -webkit-box-shadow: 0 0 0 6px #fff;
-          box-shadow: 0 0 0 6px #fff;
+  box-shadow: 0 0 0 6px #fff;
 }
 .image--shadow {
   -webkit-box-shadow: 8px 8px 0px #ffd164;
@@ -135,7 +135,7 @@ hr {
 }
 .image--shadow:hover {
   -webkit-box-shadow: 4px 4px 0px #ffd164;
-  box-shadow: 4px 4px 0px#ffd164 ;
+  box-shadow: 4px 4px 0px#ffd164;
   border: 4px solid #ffd164;
 }
 a {
@@ -259,7 +259,7 @@ a {
   color: #6394ff;
 }
 /* input */
-input[type='radio'] {
+input[type="radio"] {
   vertical-align: baseline !important;
 }
 input + label {
@@ -345,8 +345,8 @@ input + label {
   display: block;
   top: 70px;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   margin: 0;
 }
 
@@ -416,7 +416,7 @@ input + label {
 
 .down {
   position: absolute;
-  bottom: 2rem; 
+  bottom: 2rem;
   left: 50%;
   color: #eee;
   font-size: 3rem;
@@ -424,7 +424,7 @@ input + label {
   border-radius: 50%;
   padding: 4px;
   -webkit-animation: down 0.8s linear infinite alternate;
-          animation: down 0.8s linear infinite alternate;
+  animation: down 0.8s linear infinite alternate;
 }
 
 @-webkit-keyframes down {
@@ -480,7 +480,7 @@ header #delivery {
   width: max-content;
 }
 
-header #delivery  {
+header #delivery {
   background: #ffd164;
   color: #131313;
   width: -webkit-max-content;
@@ -546,9 +546,26 @@ ul {
 }
 
 .hero-image {
-  background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7))), url('../img/hero.jpg');
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
+  background-image: -o-linear-gradient(
+      right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../img/hero.jpg");
+  background-image: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      from(rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url("../img/hero.jpg");
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../img/hero.jpg");
   height: 640px;
   background-position: right;
   background-repeat: no-repeat;
@@ -585,7 +602,54 @@ ul {
 .button--vk {
   margin-top: 32px !important;
 }
-
+.subheader {
+  background: rgb(241, 241, 241);
+  border: 1px solid #e1e1e1;
+  height: 48px;
+  line-height: 48px;
+  white-space: nowrap;
+  margin-top: 24px;
+}
+.subheader .subheader--active {
+  background: #ffd164;
+  border-radius: 8px;
+  padding: 8px;
+}
+.subheader--left a {
+  margin-right: 16px;
+}
+.subheader a {
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 14px;
+  font-weight: 500;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffd164;
+  color: #131313;
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content a {
+  padding: 4px 16px;
+  text-decoration: none;
+  display: block;
+  margin-right: 0 !important;
+  border-radius: 0 !important;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.subheader a:hover {
+  background: #ffd164;
+  border-radius: 8px;
+  padding: 8px;
+}
 /* sections */
 
 .col-md-4 {
@@ -752,8 +816,8 @@ section img {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   background-color: #fff;
   color: #131313;
   border-radius: 0.5rem;
@@ -794,7 +858,7 @@ section img {
   body {
     font-size: 14px;
   }
-  
+
   .image--shadow {
     -webkit-box-shadow: unset;
     box-shadow: unset;
@@ -802,7 +866,7 @@ section img {
   .leftZero_mob {
     padding-left: 0 !important;
   }
-  
+
   .rightZero_mob {
     padding-right: 0 !important;
   }
@@ -831,8 +895,8 @@ section img {
     font-size: 16px;
     opacity: 0.6;
     top: 8px !important;
-    cursor: pointer; 
-    position: absolute; 
+    cursor: pointer;
+    position: absolute;
     right: 8px;
   }
   .covid--image {
@@ -844,10 +908,10 @@ section img {
   .covid--section .col-3 {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; 
-    -webkit-box-pack: center; 
-        -ms-flex-pack: center; 
-            justify-content: center;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   /* .mobile--header img {
     width: 24px;  
@@ -855,15 +919,15 @@ section img {
   .header--logo__mobile {
     width: 80% !important;
   }
-  
+
   #priceModal p {
     font-size: 1rem;
   }
 
-  .  {
+  . {
     text-align: center;
   }
-  
+
   .style--card h4 {
     font-size: 2rem !important;
   }
