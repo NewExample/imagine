@@ -68,21 +68,7 @@
   <!-- geo -->
   <script src="data/addresses.js"></script>
   <!-- Facebook Pixel Code -->
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2670065829683380');
-    fbq('track', 'PageView');
-  </script>
+  
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=822860898474975&ev=PageView&noscript=1" /></noscript>
   <!-- End Facebook Pixel Code -->
@@ -482,12 +468,8 @@
 
     <script src="js/sliders.js"></script>
     <script>new Sim()</script>
-    <script src="js/script.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/swiper.js"></script>
-    <script>
-      var swiper = new Swiper('.swiper-container');
-    </script>
+    
+    
     <script>
       $('#priceModal--open').click(function () {
         $('#priceModal').show();
@@ -496,11 +478,7 @@
         $('#priceModal').hide();
       });
     </script>
-    <script>
-      $('#closeCOVID').click(function () {
-        $('#COVID').hide();
-      });
-    </script>
+    
     <script>
       $(document).ready(function () {
         $('.tog').click(function () {
@@ -543,46 +521,7 @@
         h.parentNode.insertBefore(s, h);
       })(window, document, 'https://cdn.bitrix24.ru/b7533283/crm/site_button/loader_5_y1jzm9.js');
     </script>
-    <!-- accordion -->
-    <script>
-      var acc = document.getElementsByClassName('accordion');
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener('click', function () {
-          this.classList.toggle('active');
-          var panel = this.nextElementSibling;
-          if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-          } else {
-            panel.style.maxHeight = panel.scrollHeight + 'px';
-          }
-        });
-      }
-    </script>
-    <!-- calc -->
-    <script> var style = 'Акварель';</script>
-    <script src="js/counter.js"></script>
-    <script src="//instant.page/3.0.0" type="module" defer
-      integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-    <script>
-      (function (w, d, s, h, id) {
-        w.roistatProjectId = id; w.roistatHost = h;
-        var p = d.location.protocol == "https:" ? "https://" : "http://";
-        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init?referrer=" + encodeURIComponent(d.location.href);
-        var js = d.createElement(s); js.charset = "UTF-8"; js.async = 1; js.src = p + h + u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-      })(window, document, 'script', 'cloud.roistat.com', 'ce5ae819cc3119dbe9ac205226fe6881');
-    </script>
-    <!-- BEGIN BITRIX24 WIDGET INTEGRATION WITH ROISTAT -->
-    <script>
-      (function (w, d, s, h) {
-        w.roistatLanguage = '';
-        var p = d.location.protocol == "https:" ? "https://" : "http://";
-        var u = "/static/marketplace/Bitrix24Widget/script.js";
-        var js = d.createElement(s); js.async = 1; js.src = p + h + u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-      })(window, document, 'script', 'cloud.roistat.com');
-    </script>
-    <!-- END BITRIX24 WIDGET INTEGRATION WITH ROISTAT -->
+    
 </body>
 
 </html>
