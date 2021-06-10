@@ -163,6 +163,7 @@
   #small {
     height: 58px;
     justify-content: start !important;
+    margin-top: 5px;
   }
   #small div img {
     width: 71px;
