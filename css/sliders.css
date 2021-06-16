@@ -107,6 +107,7 @@ span.sim-dot {
 .imgSlider img {
   width: 100%;
   aspect-ratio: 1/1;
+  border-radius: 14px;
 }
 .descriptionsSliderItem {
   display: flex;
@@ -125,6 +126,10 @@ span.sim-dot {
   margin: 20px 0px;
   width: 50%;
   height: 32.76px;
+}
+.textSlider button:hover {
+  cursor: pointer;
+  background-color: grey !important;
 }
 .descriptionsSliderItem p {
   margin: 0;

@@ -93,10 +93,18 @@
   </div>
   <div class="mobile--nav">
     <nav class="row justify-content-between" style="margin-top: 0">
-      <a href="portraits.html">Портреты</a>
-      <a href="reproductions.html">Картины</a>
-      <a href="panno.html">Панно</a>
-      <a href="foto.html">Печать</a>
+          <a href="index.html" class="subheader--active">Главная</a>
+          <a href="portraits.html">Портреты</a>
+          <div class="dropdown">
+            <a href="#" class="dropdown--button ">Картины</a>
+            <div class="dropdown-content">
+              <a href="foto.html">Фото на холсте</a>
+              <a href="reproductions.html">Репродукции</a>
+              <a href="panno.html">Модульное панно</a>
+              
+            </div>
+          </div>
+          <a href="testCatalog.html">Фотообои</a>
     </nav>
   </div>
   </div>
@@ -157,7 +165,7 @@
     <div class="col" style="text-align: right;"><a href="tel:+79210205070">+7 (921) 020 50 70</a><br>
       <small>10:00−22:00 МСК</small>
     </div>
-    <div class="col-md-auto">
+    <div class="col-md-auto buttonMarginRight">
       <form action="https://bitrix24public.com/b24-vrm86j.bitrix24.ru/form/6_ne_nashli_chto_iskali/zk0a9o/"
         target="_blank">
         <button class="btn primary" id="callmebaby">Заказать звонок</button>
@@ -366,9 +374,9 @@
             <div><img src="img/testMain/printHolst.webp" alt=""><span>Печать на холсте</span></div>
           </div>
         </a>
-        <a  id="marginTop" class="dizabled" >
-          <div class="col" >
-            <div><img src="img/testMain/numberPictures.webp" alt=""><span>Картины по номерам</span></div>
+        <a  id="marginTop">
+          <div class="col">
+            <div><img class="dizabled" src="img/testMain/numberPictures.webp" alt=""><span class="dizabled">Картины по номерам</span><span id="hidenText">В разработке</span></div>
           </div>
         </a>
       </div>
@@ -404,9 +412,9 @@
             <div><img src="img/testMain/moduleWindow.webp" alt=""><span>Модульное панно</span></div>
           </div>
         </a>
-        <a id="marginTop" class="dizabled">
+        <a id="marginTop">
           <div class="col">
-            <div><img src="img/testMain/numberPictures.webp" alt=""><span>Картины по номерам</span></div>
+            <div><img class="dizabled" src="img/testMain/numberPictures.webp" alt=""><span class="dizabled">Картины по номерам</span><span id="hidenText">В разработке</span></div>
           </div>
         </a>
       </div>
@@ -414,15 +422,13 @@
       <div class="row mainMenu smallMenu">
         <a href="sertifikat.html">
           <div class="col" id="small">
-            <div id="textCards"><img src="img/testMain/gift.svg" alt=""><span>Подарочные</span><span
-                id="secondParagraph">сертификаты</span>
+            <div id="textCards"><img src="img/testMain/gift.svg" alt=""><span>Подарочные сертификаты</span>
               <div id="mobileTextCards"> Подарочные сертификаты</div></div>
           </div>
         </a>
         <a href="package.html">
           <div class="col" id="small">
-            <div id="textCards"><img src="img/testMain/packaging.svg" alt=""><span>Подарочная</span><span
-                id="secondParagraph">упаковка</span>
+            <div id="textCards"><img src="img/testMain/packaging.svg" alt=""><span>Подарочная упаковка</span>
               <div id="mobileTextCards"> Подарочная упаковка</div></div>
           </div>
         </a>

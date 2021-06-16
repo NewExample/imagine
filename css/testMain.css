@@ -17,7 +17,16 @@
   padding-left: 16px !important;
   padding-right: 16px !important;
 }
-
+#textCards {
+  height: 103px;
+  text-align: center;
+}
+#hidenText {
+  margin-top: -50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0.9;
+}
 .mainSection {
   min-width: 100%;
 }
@@ -48,6 +57,7 @@
 }
 .mainMenu a .col div span {
   margin-top: 5px;
+  text-align: center;
 }
 .mainMenu a .col div span,
 .smallMenu a .col div span {
@@ -59,18 +69,18 @@
   line-height: 21px;
 }
 .smallMenu a #small {
-  box-shadow: 1px 4px 7px -3px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 7px 0px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-
+  font-size: 18px;
   max-width: 100%;
   aspect-ratio: 1/1;
 }
 .smallMenu a #small img {
-  height: 70px;
+  height: 50px;
 }
 .smallMenu a #small div span {
   margin-bottom: 0;
@@ -116,35 +126,13 @@
     padding: 0 !important;
   }
 }
-@media screen and (max-width: 750px) {
-  .smallMenu a #small img {
-    height: 50px;
-  }
-  .smallMenu a .col div span {
-    font-size: 17px;
-    line-height: 15px;
+@media screen and (max-width: 800px) {
+  #hidenText {
+    margin-top: -55%;
   }
 }
 
-@media screen and (max-width: 610px) {
-  .smallMenu a #small img {
-    height: 35px;
-  }
-  .mainMenu a .col div span {
-    font-size: 14px;
-    line-height: 13px;
-  }
-}
-@media screen and (max-width: 495px) {
-  .smallMenu a #small img {
-    height: 35px;
-  }
-  .mainMenu a .col div span {
-    font-size: 12px;
-    line-height: 13px;
-  }
-}
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 645px) {
   #COVID {
     display: block;
   }
@@ -172,7 +160,6 @@
     align-items: center;
     display: flex;
     margin-left: 5px;
-    font-size: 18px;
   }
   #textCards {
     display: flex;
@@ -180,15 +167,21 @@
   .smallMenu a .col div span {
     display: none;
   }
-}
-@media screen and (max-width: 400px) {
   .smallMenu a #small img {
-    height: 25px;
+    height: 40px;
+  }
+  #textCards {
+    height: auto;
   }
 }
-
-@media screen and (max-width: 375px) {
-  .mainMenu a .col div span {
-    font-size: 15px;
+@media screen and (max-width: 440px) {
+  #hidenText {
+    margin-top: -60%;
+  }
+}
+@media screen and (max-width: 405px) {
+  #hidenText {
+    margin-top: 0px;
+    font-size: 14px;
   }
 }
