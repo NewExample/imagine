@@ -181,6 +181,9 @@ a {
   -ms-user-select: none;
   user-select: none;
 }
+.buttonHiden {
+  display: none;
+}
 /* btn-color */
 .primary {
   background: #ffd164;
@@ -862,6 +865,18 @@ section img {
 
 .desktop-hide {
   display: none;
+}
+@media only screen and (max-width: 1040px) {
+  .buttonHiden {
+    display: block;
+    margin-top: 5px;
+  }
+  .buttonSeek {
+    display: none;
+  }
+  .btn {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 900px) {
