@@ -201,6 +201,7 @@ input:hover {
 
 .mainContainer #categoriesCatalog .col {
   margin-left: 0px;
+  margin-bottom: 10px;
 }
 #color .col {
   display: flex;
@@ -214,6 +215,7 @@ input:hover {
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  aspect-ratio: 1/1;
 }
 /* Color*/
 .red {
@@ -298,7 +300,7 @@ input:hover {
   box-shadow: 4px 4px 7px -3px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 4/3;
 }
 #categories {
   box-shadow: 4px 4px 7px -3px rgb(255, 255, 255);
@@ -338,8 +340,8 @@ input:hover {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 50%;
-  margin-top: -12px;
-  margin-bottom: 50px;
+  margin-top: 3px;
+  margin-bottom: 30px;
 }
 .oldPrice {
   text-decoration-line: line-through;
@@ -352,12 +354,14 @@ input:hover {
 .favoriteImg {
   width: 29px !important;
   position: absolute;
-  top: 4%;
-  right: 10%;
+  right: 9px;
+  top: 9px;
+  height: 29px;
 }
-.favoriteImg:hover {
-  filter: hue-rotate(110);
+.whiteLike {
+  position: absolute;
 }
+
 #sales {
   background: #6394ff;
   border-radius: 10px;
@@ -367,8 +371,8 @@ input:hover {
   height: 24px;
   color: white;
   position: absolute;
-  top: calc(85% - 71px);
-  left: 10%;
+  left: 10px;
+  bottom: 10px;
   font-size: 14px;
 }
 #marginRight {
@@ -433,6 +437,7 @@ input:hover {
 }
 .cardsCol .row {
   width: 100%;
+  margin-top: 10px;
 }
 .cardsCol .container {
   max-width: 100% !important;
@@ -466,7 +471,7 @@ input:hover {
   margin-top: 43px;
   display: flex;
   justify-content: space-between;
-  padding: 0 16px;
+  padding: 0 18px 0px 16px;
 }
 .tagsButton {
   max-width: 55%;
@@ -504,20 +509,128 @@ input:hover {
 #mobile {
   display: none !important;
 }
-@media screen and (max-width: 901px) {
+.blurBacground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100% !important;
+  height: 100vh;
+  backdrop-filter: blur(4px);
+  z-index: 100;
+}
+.diActiveBackround {
+  display: none;
+}
+.formOrder {
+  background-color: white;
+  width: 73.44%;
+  height: max-content;
+  position: fixed;
+  top: 100px;
+  left: 13.28065%;
+  z-index: 101;
+}
+.formOrder .row {
+  padding: 71px 71px 45px 65px;
+}
+.buyFoto {
+  width: 100%;
+  min-width: 356px;
+  border-radius: 10px;
+}
+.mobileCategories {
+  display: none;
+  background-color: white;
+  width: 100%;
+  z-index: 1000000;
+}
+.showCategories {
+  background-color: white;
+  display: block;
+  position: absolute;
+  height: max-content;
+  top: 0;
+  padding: 0 25% 200px 25%;
+}
+
+.whiteBackground {
+  display: none !important;
+}
+.exitCategories {
+  position: fixed;
+  top: 45px;
+  right: 10%;
+}
+#mainCatalogBlock {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.relative {
+  position: relative;
+}
+.mobCategories {
+  max-width: 100% !important;
+}
+#none {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .col-md-4 {
+    max-width: 65%;
+    min-width: 48%;
+  }
+  #Categories {
+    min-width: 229px;
+  }
+  #categories {
+    min-width: 229px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
   .col-md-4 {
     max-width: 45%;
     min-width: 35%;
   }
+  .tagsFilters {
+    display: block;
+  }
+  .tagsButton {
+    max-width: 100%;
+  }
+  .tagsFilters {
+    padding-left: 6px;
+  }
+  #categories {
+    max-width: 200px;
+  }
+  .container {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
+  .col-md-4 {
+    max-width: 47%;
+    min-width: 40%;
+  }
+}
+@media screen and (max-width: 650px) {
   .col-md-4 {
     max-width: 100%;
-    min-width: 80%;
+    min-width: 40%;
+  }
+  .tagsButton {
+    display: none;
+  }
+  .Filteres {
+    margin-top: 43px;
+    height: 28px;
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 500px) {
   .mobileVersion {
     display: block;
   }
@@ -539,9 +652,7 @@ input:hover {
   .seek {
     display: none;
   }
-  #mobile {
-    display: flex !important;
-  }
+
   .tagsButton {
     max-width: 100%;
   }
@@ -579,10 +690,35 @@ input:hover {
     margin-top: 0px;
     margin-bottom: 22px;
   }
+  .searchTerm {
+    font-size: 18px;
+  }
+  .Filteres {
+    margin-top: 0;
+    height: max-content;
+    margin-bottom: 0px;
+  }
+  #mobile {
+    display: flex !important;
+  }
+  .blocked {
+    display: block !important;
+  }
 }
-@media screen and (max-width: 540px) {
+
+@media screen and (max-width: 400px) {
   .col-md-4 {
     max-width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .showCategories {
+    padding: 0 15% 0 15%;
+  }
+  .exitCategories {
+    position: fixed;
+    top: 45px;
+    right: 5%;
   }
 }
 @media screen and (max-width: 350px) {
