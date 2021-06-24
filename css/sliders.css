@@ -97,10 +97,16 @@ span.sim-dot {
   height: 270px;
   border-radius: 10px;
 }
+.second {
+  background: url(../img/testMain/slider2.webp) center no-repeat;
+}
+.third {
+  background: url(../img/testMain/slider3.webp) center no-repeat;
+}
+
 .imgSlider {
   width: 180px;
   min-width: 160px;
-  margin-right: 28px;
   display: flex;
 }
 
@@ -112,6 +118,8 @@ span.sim-dot {
 .descriptionsSliderItem {
   display: flex;
   align-items: center;
+  width: 100%;
+  margin-left: 28px;
 }
 .textSlider {
   height: 100%;
@@ -126,6 +134,7 @@ span.sim-dot {
   margin: 20px 0px;
   width: 50%;
   height: 32.76px;
+  max-width: 193px;
 }
 .textSlider button:hover {
   cursor: pointer;
@@ -137,6 +146,8 @@ span.sim-dot {
 .boldTextSlider {
   font-weight: bold;
   font-size: 36px;
+  line-height: 47px;
+  white-space: nowrap;
 }
 .normalTextSlider {
   font-size: 18px;
@@ -152,8 +163,8 @@ span.sim-dot {
 }
 .contentSlider {
   display: flex;
-  max-width: 70%;
   align-items: center;
+  max-width: 90%;
 }
 @media screen and (max-width: 900px) {
   .slider {

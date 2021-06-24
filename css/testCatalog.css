@@ -360,6 +360,7 @@ input:hover {
 }
 .whiteLike {
   position: absolute;
+  z-index: 0;
 }
 
 #sales {
@@ -464,6 +465,7 @@ input:hover {
   max-width: 100px;
   margin-right: 16px;
   min-width: 100px !important;
+  white-space: nowrap;
 }
 
 .tagsFilters {
@@ -575,10 +577,13 @@ input:hover {
 #none {
   display: none;
 }
+#mainCatalogBlock {
+  margin-right: -17px;
+}
 @media screen and (max-width: 1000px) {
   .col-md-4 {
     max-width: 65%;
-    min-width: 48%;
+    min-width: 50%;
   }
   #Categories {
     min-width: 229px;
@@ -590,8 +595,8 @@ input:hover {
 }
 @media screen and (max-width: 900px) {
   .col-md-4 {
-    max-width: 45%;
-    min-width: 35%;
+    max-width: 49%;
+    min-width: 30%;
   }
   .tagsFilters {
     display: block;
@@ -609,11 +614,14 @@ input:hover {
     padding-right: 8px;
     padding-left: 8px;
   }
+  #mainCatalogBlock {
+    margin-right: -3px;
+  }
 }
 @media screen and (max-width: 750px) {
   .col-md-4 {
-    max-width: 47%;
-    min-width: 40%;
+    max-width: 49%;
+    min-width: 30%;
   }
 }
 @media screen and (max-width: 650px) {
@@ -703,6 +711,10 @@ input:hover {
   }
   .blocked {
     display: block !important;
+  }
+  #mainCatalogBlock {
+    margin-left: -2px;
+    min-width: calc(100% + 4px);
   }
 }
 

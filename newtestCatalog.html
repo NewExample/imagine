@@ -90,7 +90,7 @@
 
 <body >
   <!-- гео мобайл -->
-
+  
   <!-- гео мобайл -->
   <div class="mobile--header">
     <div class="row align-items-center" style="padding: 0 16px;">
@@ -107,19 +107,28 @@
   </div>
   <div class="mobile--nav">
     <nav class="row justify-content-between" style="margin-top: 0">
-      <a href="index.html">Портреты</a>
-      <a href="reproductions.html">Картины</a>
-      <a href="panno.html">Панно</a>
-      <a href="foto.html">Печать</a>
+      <a href="index.html">Главная</a>
+      <a href="portraits.html">Портреты</a>
+      <div class="dropdown">
+        <a href="#" class="dropdown--button ">Картины</a>
+        <div class="dropdown-content">
+          <a href="foto.html">Фото на холсте</a>
+          <a href="reproductions.html">Репродукции</a>
+          <a href="panno.html">Модульное панно</a>
+  
+        </div>
+      </div>
+      <a href="newtestCatalog.html" class="subheader--active">Фотообои</a>
     </nav>
   </div>
   </div>
   <div id="myNav" class="mobile--overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="mobile--overlay-content">
+  
       <div class="mobile--overlay__main" style="margin-bottom: 32px;">
         <p>Основное</p>
-
+  
         <a href="index.html">Портреты</a>
         <a href="reproductions.html">Картины</a>
         <a href="panno.html">Панно</a>
@@ -140,14 +149,23 @@
         <a href="optom.html">Оптом</a>
         <a href="contacts.html">Контакты</a>
       </div>
-
+      <div class="col-md-auto">
+        <form action="https://bitrix24public.com/b24-vrm86j.bitrix24.ru/form/31_uznat_status_zakaza/rpduz6/"
+          target="_blank">
+          <button class="btn line" type="submit">Узнать статус заказа</button>
+        </form>
+        <form class="buttonHiden"
+          action="https://bitrix24public.com/b24-vrm86j.bitrix24.ru/form/6_ne_nashli_chto_iskali/zk0a9o/" target="_blank">
+          <button class="btn primary" id="callmebaby">Заказать звонок</button>
+        </form>
+      </div>
     </div>
   </div>
-
-  <header class="row align-items-center" >
+  
+  <header class="row align-items-center">
     <div class="col-md-2"><a href="index.html"><img src="img/logotype.png" class="image logotype" alt="Логотип" /></a>
     </div>
-
+  
     <!-- гео десктоп -->
     <div class="col geoIcon" style="flex-grow: 0;">
       <i class="material-icons">
@@ -171,7 +189,7 @@
     <div class="col" style="text-align: right;"><a href="tel:+79210205070">+7 (921) 020 50 70</a><br>
       <small>10:00−22:00 МСК</small>
     </div>
-    <div class="col-md-auto">
+    <div class="col-md-auto buttonSeek">
       <form action="https://bitrix24public.com/b24-vrm86j.bitrix24.ru/form/6_ne_nashli_chto_iskali/zk0a9o/"
         target="_blank">
         <button class="btn primary" id="callmebaby">Заказать звонок</button>
@@ -182,9 +200,13 @@
         target="_blank">
         <button class="btn line" type="submit">Узнать статус заказа</button>
       </form>
+      <form class="buttonHiden"
+        action="https://bitrix24public.com/b24-vrm86j.bitrix24.ru/form/6_ne_nashli_chto_iskali/zk0a9o/" target="_blank">
+        <button class="btn primary" id="callmebaby">Заказать звонок</button>
+      </form>
     </div>
   </header>
-
+  
   <!-- гео мобайл -->
   <div class="tooltip tooltip-mobile xyn" id="tooltip tooltip-mobile">
     <div class="mobile--geo" id="mobileGeo">
@@ -200,41 +222,39 @@
       </div>
       <!-- <span>Изменить</span> -->
     </div>
-
+  
     <span class="tooltiptext" id="tooltipMobile">
       <p>Это ваш город?</p>
       <div class="btn white" onclick="tooltipClose()">Да</div>
       <div class="btn" onclick="tooltipOpen()" style="border: 1px solid white">Нет</div>
     </span>
   </div>
-
+  
   <div class="subheader" role="navigation" aria-label="Main">
     <div class="row align-items-center">
       <div class="col-md-6 subheader--left">
         <nav>
-          <a href="index.html" class="subheader--decoration">Главная</a>
-          <a href="styles.html" class="subheader--decoration">Портреты</a>
-          <a href="reproductions.html" class="subheader--decoration">Картины</a>
-          <a href="panno.html" class="subheader--decoration">Панно</a>
-          <a href="foto.html" class="subheader--decoration">Фото на холсте</a>
+          <a href="index.html">Главная</a>
+          <a href="portraits.html">Портреты</a>
           <div class="dropdown">
-            <a href="#" class="dropdown--button subheader--active">Доп. услуги <i class="fa fa-caret-down"></i></a>
+            <a href="#" class="dropdown--button ">Картины <i class="fa fa-caret-down"></i></a>
             <div class="dropdown-content">
-              <a href="restoration.html">Реставрация старых фото</a>
-              <a href="retush.html">Ретушь</a>
-              <a href="sertifikat.html">Сертификаты</a>
-              <a href="baget.html" class="dropdown-content--active">Багет</a>
-              <a href="package.html">Упаковка</a>
+              <a href="foto.html">Фото на холсте</a>
+              <a href="reproductions.html">Репродукции</a>
+              <a href="panno.html">Модульное панно</a>
+  
             </div>
           </div>
+          <a href="newtestCatalog.html" class="subheader--active">Фотообои</a>
+  
         </nav>
       </div>
       <div class="col-md-6 subheader--right">
         <nav>
-          <a href="cash.html" class="subheader--decoration">Оплата</a>
-          <a href="delivery.html" class="subheader--decoration">Доставка</a>
-          <a href="optom.html" class="subheader--decoration">Оптом</a>
-          <a href="contacts.html" class="subheader--decoration">Контакты</a>
+          <a href="cash.html">Оплата</a>
+          <a href="delivery.html">Доставка</a>
+          <a href="optom.html">Оптом</a>
+          <a href="contacts.html">Контакты</a>
         </nav>
       </div>
     </div>
@@ -1396,7 +1416,7 @@
                 
                     <div class="relative">
                       <div class="favoriteImg">
-                      <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                      <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                       <img class="yellowLike"  src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1421,7 +1441,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1446,7 +1466,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1471,7 +1491,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1496,7 +1516,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1521,7 +1541,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1546,7 +1566,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1571,7 +1591,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1596,7 +1616,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1621,7 +1641,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1646,7 +1666,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1671,7 +1691,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1696,7 +1716,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1721,7 +1741,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1746,7 +1766,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1771,7 +1791,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1796,7 +1816,7 @@
               
                     <div class="relative">
                       <div class="favoriteImg">
-                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
                         <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
@@ -1818,16 +1838,16 @@
               <div class="col-md-4">
                 <a>
                   <div class="cardsOrder">
-                
+              
                     <div class="relative">
                       <div class="favoriteImg">
-                      <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="" style="z-index: 5;">
-                      <img class="yellowLike"  src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
+                        <img class="whiteLike" src="img/testCatalog/favorite.svg" alt="">
+                        <img class="yellowLike" src="img/testCatalog/hoverLike.svg" alt="" style="z-index: 4;">
                       </div>
                       <div id="sales" class="quickOrder">-40%</div>
                       <img class="quickOrder" src="img/testCatalog/row1-1.png" alt="">
                     </div>
-                    
+              
                     <div class="descriptionProducts quickOrder">
                       <div class="row align-items-center">
                         <div class="col prices">
@@ -1867,10 +1887,12 @@
     <section class="section--wide">
       <div class="row">
         <div class="col-md-3 col-md-3__top40 modal--cursor col-6">
-          <a class="text--bold" href="#">Картины</a>
-          <a href="index.html">Портреты по фото</a>
-          <a href="foto.html">Печать фото на холсте</a>
-          <a href="reproductions.html">Картины</a>
+          <a class="text--bold" href="#">Основные разделы</a>
+          <a href="index.html">Главная</a>
+          <a href="portraits.html">Портреты по фото</a>
+          <a href="newtestCatalog.html">Фотообои</a>
+          <a href="foto.html">Печать на холсте</p>
+          <a href="reproductions.html">Картины</p>
           <a href="panno.html">Модульное панно</p>
         </div>
         <div class="col-md-3 col-md-3__top40 modal--cursor col-6">
